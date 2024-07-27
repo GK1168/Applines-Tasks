@@ -1,0 +1,68 @@
+*{
+    background-color: #5D6D7E;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#container{
+    margin: 10%;
+    margin-left: 35%;
+    border: 2px solid antiquewhite;
+    width: 400px;
+    height: 556px;
+    border-radius: 25px;
+    align-items: center;
+}
+
+#output{
+    margin-top: 20px;
+    text-align: right;
+    margin-right: 30px;
+    display: block;
+    width: 350px;
+    height: 100px;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+}
+.grid-container{
+    display: grid;
+    /*border: 2px solid red;*/
+    grid: 80px/ auto auto auto auto;
+    grid-gap: 1px;
+    padding: auto;
+    
+}
+.grid-container > div {
+    margin: 20px;
+    /*border: 1px solid black;*/
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    padding: 2px;
+}
+button{
+    width: 50px;
+    height:50px;
+    
+    border-radius: 50%;
+   
+    display:inline-block;
+    position:relative;
+    background-color:#03314b;
+
+    box-shadow:  0px -10px 25px ;
+}
+
+.Extra{
+    color: greenyellow;
+}
+.Num{
+    color: white;
+    font-size: 25px;
+}
+.super{
+    color:white;
+    background-color: orange;
+}

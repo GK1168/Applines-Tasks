@@ -1,0 +1,30 @@
+*{
+    background-color: #FFB6C1;
+}
+
+#container{
+    margin: 20%;
+    margin-left: 30%;
+    border: 2px solid black;
+    width: 700px;
+    height: 170px;
+    text-align: center;
+    display: inline-block;
+    background-color: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+#container button,img{
+    display:block;
+    float: left;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }

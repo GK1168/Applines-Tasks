@@ -1,0 +1,104 @@
+sudo mysql / sudo -u root -p
+
+show databases;
+
+create schema if not exists applines;
+
+drop schema if exists applines;
+
+create database if not exists company;
+
+drop database if exists company;
+
+use comapny;
+
+show tables;
+
+create table intern(id INT not null,name varchar(25) not null,pos varchar(15),constraints);
+
+constraints -- primary key, foreign key
+primary key(colName) / foreign key(created_colname) references primary key(existed_colName)
+
+insert into intern(1,'gopal',trainee);
+
+insert into intern(&1,&'gopal',&trainee);
+
+insert ignore into intern values(),(),()...;
+
+alter table intern add column sal int not null;
+
+alter table intern add column ((),(),...);
+
+alter table intern drop column pos;
+
+alter table intern drop coloum (col1,col2,...);
+
+alter table intern modify column Sno varchar(20);
+
+alter table intern modify column ((),(),...);
+
+drop table tablename
+
+drop procedure procedure_name
+
+drop view view_name
+---------------------Oracle 10g ----------------
+
+drop table tablename;
+
+flashback table tablename to before drop;
+
+drop table tablename purge
+
+-------------------------------------------------
+
+truncate table tablename;
+
+select * from tablename;
+
+rename oldTableName to newTableName;
+
+alter table tablename rename column oldColumnName to newColumnName;
+
+update tablename set columnName = newValue where columnName =oldValue; //condition based
+
+delete from tablename;
+
+delete from tablename where columnName = value; // stored in buffer
+
+rollback;
+
+select col1,col2,... from tablename where condition 
+group by columnName
+having condition
+order by columnName asc/desc;
+
+savepoint savepointName;
+
+grant privileges on object to users (WITH grant option);
+
+revoke [grant option for] privileges on object from users{restrict/cascade};
+
+grant select on books to emp17 with grant option;
+
+grant select on books to emp14 with grant option;
+
+revoke select on books from emp17 restrict;
+
++, -, *, /, %, mod(), =, <=, >, >=, <, <>, !=, AND, OR, NOT, Select, WHERE, IN, ANY, SOME, NOT IN, ALL 
+BETWEEN x AND y, EXISTS, NOT EXISTS ,LIKE, IS NULL, IS NOT NULL, NOT LIKE 
+
+select * from tablename where particular columnName IN(list of values);
+
+select * from tablename where particular columnName NOT IN(list of values);
+
+select * from tablename where sal between 2000 and 50000;
+
+NVL(,); // used to substitute userdefined valuees
+nvl(null,50) || nvl(20,70) // exp1-null return exp2 else exp1
+
+
+
+
+
+

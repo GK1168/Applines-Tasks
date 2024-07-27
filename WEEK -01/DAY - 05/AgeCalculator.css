@@ -1,0 +1,39 @@
+*{
+    background-color: aquamarine;
+}
+
+#container{
+    margin: 20%;
+    margin-left: 30%;
+    /*border: 2px solid black;*/
+    width: 700px;
+    height: 250px;
+    text-align: center;
+    display: inline-block;
+    background-color: #ADD8E6;
+    border-radius: 10px;
+}
+
+h1,h4,h2{
+    display: block;
+    background-color: #ADD8E6;
+}
+input{
+    padding: 5px;
+    width: 125px;
+    height: 30px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+button{
+    display: inline-block;
+    background-color: #ADD8E6; 
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+}
+output{
+    display: block;
+    background-color: #ADD8E6;
+}

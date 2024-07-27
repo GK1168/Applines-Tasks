@@ -1,0 +1,23 @@
+h1{
+    color: green;
+}
+p{
+    color: tomato;
+}
+b{
+    color: green;
+    font-size: 20px;
+}
+u{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div{
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    background-color: aquamarine;
+    color: black;
+    padding: 15px;
+    margin: 20px;
+    border: 5px solid red;
+}

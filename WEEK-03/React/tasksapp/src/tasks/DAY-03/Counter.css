@@ -1,0 +1,39 @@
+*{
+    text-align: left;
+}
+.card-Header{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-content{
+    font-size: 50px;
+    color: black;
+}
+
+.card-button-increment{
+    font-size: 1rem;
+    background-color: green;
+    color: white;
+    border: 2px solid balck;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    width: 120px;
+    height: 40px;
+}
+
+.card-button-decrement{
+    font-size: 1rem;
+    background-color: orange;
+    color: white;
+    border: 2px solid balck;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+}

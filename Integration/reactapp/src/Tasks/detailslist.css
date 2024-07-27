@@ -1,0 +1,9 @@
+.search{
+    margin : 20px ;
+    margin-left: 300px;
+}
+
+tr,thead,td{
+    text-align: center !important;
+
+}

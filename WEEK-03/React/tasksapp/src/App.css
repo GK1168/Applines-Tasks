@@ -1,0 +1,19 @@
+.row{
+  margin: 35px;
+  padding:1px;
+  width: 1500px;
+  display: block;
+  /* border: 2px solid red; */
+  border-radius: 10px;
+  background-color: white;
+  align-items: center;
+
+}
+.col{
+  padding: 10px;
+  background-color: white;
+  /* border: 2px solid blue; */
+  margin: 10px;
+  border-spacing: 1px;
+  
+}

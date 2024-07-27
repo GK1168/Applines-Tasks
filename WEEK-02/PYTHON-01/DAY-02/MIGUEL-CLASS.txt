@@ -1,0 +1,22 @@
+
+
+oops concepts -
+    Encapsulation
+    Inheritance
+    Polymorphism
+    Abstraction classes --> cannot be instantiated
+    Constructor -- magic keywords and methods
+
+ffmpeg --> program that manipulates audio & video processing
+handling encoding & decoding files in backend
+ffprobe,os pkg,
+video/audio - trim - virtual environment
+opencv and dependencies -- pip / poetry 
+poetry init/add opencv-python
+pip freeze >> requirements.txt
+pip install -r requirements.txt
+
+blender - opensource modelling app that can create or modify video/audio
+scripting, lot of libraries,visualization,animations, 
+
+

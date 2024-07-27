@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="AgeCalculator.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Age Calculator</h1>
+        <h4>Please tell us: When were you born ?</h4>
+        <input type="number" name="tday" id="date" min="1" max="31" placeholder="22" minlength="1" maxlength="2" required>
+        <input type="number" name="tmonth" id="month" min="1" max="12" placeholder="06" minlength="1" maxlength="2" required>
+        <input type="number" name="tyear" id="year" placeholder="2001" minlength="4" maxlength="4" required>
+        <button type="submit" id="submit">Enter</button>
+        <h2 id="output"></h2>
+    </div>
+    <script src="AgeCalculator.js"></script>
+</body>
+</html>

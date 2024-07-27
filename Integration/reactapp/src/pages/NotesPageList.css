@@ -1,0 +1,19 @@
+button{
+    width: 150px;
+    height: 50px;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+}
+
+.items{
+    border: 2px solid green;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 25%;
+    width: 700px;
+    height: 80px;
+    padding: 10px;
+}

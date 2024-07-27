@@ -1,0 +1,14 @@
+const date = new Date();
+console.log("current date & Time : "+date);
+console.log("String Format : "+date.toString());
+console.log("Date Format : "+date.toDateString());
+console.log("UTC Format : "+date.toUTCString());
+console.log("ISO Format : "+date.toISOString());
+console.log("Getting Year : "+ date.getFullYear());
+console.log("Getting Month : "+ date.getMonth());
+console.log("Getting Date : "+ date.getDate());
+console.log("Getting Day : "+ date.getDay());
+console.log("Getting Hours : "+ date.getHours());
+console.log("Getting Minutes : "+ date.getMinutes());
+console.log("Getting Seconds : "+ date.getSeconds());
+//console.log("Setting Date : "+ date.setFullYear(2));

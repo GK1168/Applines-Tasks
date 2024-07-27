@@ -1,0 +1,15 @@
+const prompt = require("prompt-sync")({sigint:true});
+var num1 = prompt("Enter first number :: ");
+var num2 = prompt("Enter Second number :: ");
+var num3 = prompt("Enter third number :: ");
+let result = 0;
+console.log("Given Numbers are :: "+ num1 + " " + num2 + " " + num3);
+result = parseInt(num1)+parseInt(num2)+parseInt(num3);
+console.log("Addition :"+ result);
+result = num1-num2-num3;
+console.log("Subtraction : "+ result);
+console.log("multiplication :"+ num1*num2*num3);
+console.log("Division : "+ (num1/num2)/num3);
+console.log("modulo :"+ (num1%num2)%num3);
+console.log("Increment : "+ ++num1 + " " +num1++);
+console.log("Decrement : "+ --num1 + " " +num1--);

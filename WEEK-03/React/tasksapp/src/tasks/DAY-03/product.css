@@ -1,0 +1,12 @@
+*{
+    color: black;
+}
+
+.roww{
+    border: 2px solid grey;
+    width: 600px;
+    margin: 20px auto !important;
+    display: border-box;
+    align-items: center;
+    box-shadow: 5px 5px 0 rgba(133, 146, 158,0.4);
+}

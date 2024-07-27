@@ -1,0 +1,9 @@
+https://github.com/redduxi/Google-Dorks-Resources/blob/main/dorks-lists/exploit-db-dorks-lists.txt 
+https://github.com/redduxi/Google-Dorks-Resources/blob/main/File%20share%20platforms.txt
+https://github.com/redduxi/Google-Dorks-Resources/blob/main/Pastebin%20sities.txt
+https://github.com/redduxi/Google-Dorks-Resources/blob/main/Services%20for%20instant%20articles.txt
+https://github.com/techgaun/github-dorks/blob/master/github-dorks.txt
+https://kathan19.gitbook.io/howtohunt/sensitive-info-leaks/github-dorks
+https://hackersonlineclub.com/google-hacking/
+https://kathan19.gitbook.io/howtohunt/sensitive-info-leaks/github-dorks
+https://www.boxpiper.com/posts/google-dork-list 

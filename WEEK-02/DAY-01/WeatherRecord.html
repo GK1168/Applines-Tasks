@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="WeatherRecord.css">
+</head>
+<body>
+    <div id="container">
+        <h1> Weather App </h1>
+        
+        <input type="text" placeholder="Enter city name ..?">
+        <button type="submit" onclick="getStats()">Get Weather</button>
+        <br><br>
+        <section id="image"><img src="https://openweathermap.org/img/wn/50d@2x.png" alt="cloud status image"></section>
+        <section id="temp">temp:   </section>
+        <div id="feelsLike">Feels Like :  </div>
+        <div id="humidity"> Humidity :</div>
+        <div id="windSpeed"> Wind Speed : </div>
+    </div>
+    <script src="WeatherRecord.js"></script>
+</body>
+</html>

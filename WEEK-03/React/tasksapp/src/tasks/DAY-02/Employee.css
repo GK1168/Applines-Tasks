@@ -1,0 +1,21 @@
+*{
+    background-color: white;
+}
+
+.card-header{
+    background-color: green !important;
+    font-weight: bolder;
+    text-align: left;
+}
+.card{
+    width: 400px;
+}
+
+p{
+    background-color: white;
+}
+.blocks{
+    background-color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+}

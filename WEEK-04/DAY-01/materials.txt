@@ -1,0 +1,93 @@
+##################################################
+VALENTINA STUDIO (VSTUDIO)
+##################################################
+
+Paradigma Software's Valentina Studio is a sophisticated but easy-to-use 
+ application that lets you quickly create and maintain Valentina databases. 
+ Valentina Studio is able to work with databases located in your local file
+ system and with remote databases. 
+ Using a highly graphical way of working, Valentina Studio makes 
+ it simple to create the necessary database structure for your project.
+
+
+ #####################################################
+ POSTMAN
+ #####################################################
+
+Postman is a comprehensive API development platform that assists you in managing your APIs at all stages of development, from designing and testing to publishing API documentation and monitoring. Postman began as a Chrome browser plugin and rapidly became one of the most popular API tools among developers worldwide. Postman is available for all major operating systems as a native app (based on Electron), including macOS, Linux, and Windows. This post will walk you through installing Postman on Ubuntu 20.04.v.
+
+Sending requests | Writing Scripts | Design & Developing APIs |
+API --> Documentation, Monitoring, Governance, Security
+
+
+
+#################################################################
+urls in app1
+################################################################
+from django.urls import path
+
+from .views import ProductList
+
+urlpatterns = [
+    path('prod-list/', ProductList.as_view(),name = 'prod-list' )
+]
+
+#################################################################
+urls in project
+#################################################################
+
+from django.contrib import admin
+from django.urls import path,include
+
+urlpatterns = [
+    path('products',include('products.urls')),
+    path('admin/', admin.site.urls),
+]
+
+#####################################################################
+models.py in app
+######################################################################
+from django.db import models
+
+class ProductsList(models.Model):
+    product_id = models.IntegerField()
+    product_name = models.CharField(max_length=100)
+    price = models.IntegerField()
+    quantity = models.FloatField()
+
+
+########################################################################
+views in app
+#######################################################################
+
+from django.shortcuts import render
+from rest_framework.response import Response
+from rest_framework.views import APIView
+from rest_framework import status
+from .models import ProductsList
+from .serializer import ProductsListSerializer
+
+class ProductList(APIView):
+    def get(self,request):
+        obj = ProductsList.objects.all()
+        serializer = ProductsListSerializer(obj,many=True)
+        return Response(serializer.data,status = status.HTTP_200_OK)
+    
+    def post(self,request):
+        serializer = ProductsListSerializer(data = request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data,status = status.HTTP_201_CREATED)
+        else:
+            return Response(serializer.data,status = status.HTTP_400_BAD_REQUEST)
+
+###########################################################################
+serializer created in app
+########################################################################
+from rest_framework import serializers
+from .models import ProductsList
+
+class ProductsListSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = ProductsList
+        fields = '__all__'

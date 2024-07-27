@@ -1,0 +1,22 @@
+/* * {
+    background-color: dodgerblue;
+} */
+div {
+    margin: 20px;
+    display: inline-block;
+    border: 1px solid red;
+    width: 250px;
+    height:250px ;
+}
+div.h
+
+table { 
+    
+    padding: 15px;
+    border-spacing: 10px;
+}
+#button {
+    width: 200px;
+    height: 30px;
+    color: white;
+}

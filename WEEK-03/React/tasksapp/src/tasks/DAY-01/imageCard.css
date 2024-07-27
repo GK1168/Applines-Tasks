@@ -1,0 +1,28 @@
+*{
+    background-color: rgba(0,0,0,0.3);
+}
+
+
+.card{
+    float:left;
+    padding: 3px;
+    margin:15px auto;
+    background-color: white;
+    text-align: center;
+
+}
+.card-body,.card-text,.card-title{
+    background-color: white;
+    color: balck;
+    
+}
+
+.menu-card{
+    width: 1400px;
+    align-items: center;
+    border: 2px solid red;
+    display: flex;
+    margin-left: 10% !important;
+    padding: 80px;
+    position: absolute;
+}
